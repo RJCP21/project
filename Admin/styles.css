@@ -9,10 +9,6 @@
   font-family: "Josefin Sans", sans-serif;
 }
 
-body {
-  background-color: #d1d9eb;
-}
-
 .wrapper {
   display: flex;
   position: relative;
@@ -46,7 +42,7 @@ body {
 }
 
 .wrapper .sidebar ul li a .fas {
-  width: 25px;
+  width: 30px;
 }
 
 .wrapper .sidebar ul li:hover {
@@ -100,59 +96,31 @@ body {
   margin-bottom: 20px;
 }
 
-.input-group {
-  position: absolute;
-  top: 50px;
-  left: 230px;
+.row {
+  position: fixed;
+  top: 1.5rem;
+  left: 35%;
 }
-
-.dropdown {
-  width: 38px;
-}
-
-.dropdown:hover .dropdown-list {
-  opacity: 0.9;
-  visibility: visible;
-}
-
-.dropdown-select {
-  position: absolute;
-  top: 49px;
-  left: 500px;
-  padding: 0.2rem;
-  width: 20%;
-  border-radius: 4px;
-  background-color: #ffffff;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  cursor: pointer;
-}
-
-.dropdown-list {
-  position: absolute;
-  top: 80px;
-  left: 500px;
-  width: 20%;
-  border-radius: 4px;
-  background-color: #f3f5f9;
-  visibility: hidden;
-  transition: opacity 0.2s linear, visibility 0.2s linear;
-}
-
-.dropdown-list_item {
-  padding: 1rem;
-  font-size: 0.9rem;
+.search {
+  position: fixed;
+  top: 3rem;
+  left: 15%;
 }
 
 .sms {
   position: fixed;
-  top: 50px;
+  top: 40px;
   left: 1300px;
 }
 
 .report {
   position: fixed;
-  top: 50px;
+  top: 40px;
   left: 1400px;
+}
+
+.table {
+  position: fixed;
+  bottom: 60%;
+  left: 13.4%;
 }
