@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:700&display=swap");
+
+.navbar {
+  position: absolute;
+  height: 80px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgb(0, 0, 0);
+}
+.logo {
+  position: fixed;
+  right: 48%;
+}
+.navbar .logo {
+  width: 200px;
+  height: auto;
+}
+.navbar ul {
+  position: fixed;
+  right: 50px;
+  float: right;
+  height: 50px;
+}
+.navbar ul li {
+  list-style: none;
+  margin: 0 8px;
+  display: inline-block;
+  line-height: 80px;
+}
+.navbar ul li a {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  padding: 6px 13px;
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+.search {
+  position: fixed;
+  top: 2rem;
+  left: 15px;
+}
+.row {
+  position: fixed;
+  top: 2rem;
+  left: 280px;
+  width: 10%;
+}
+.table {
+  position: fixed;
+  bottom: 60%;
+  left: 13.4%;
+}
+.table {
+  position: fixed;
+  height: 80px;
+  width: 100%;
+  top: 100;
+  left: 0;
+  background: rgba(253, 253, 253, 0.822);
+}
+.sms {
+  position: fixed;
+  top: 44rem;
+  left: 1200px;
+}
+.report {
+  position: fixed;
+  top: 44rem;
+  left: 1265px;
+}
+.Log {
+  position: fixed;
+  top: 44rem;
+  left: 1380px;
+}
+.media {
+  position: fixed;
+  color: rgb(2, 2, 2);
+  font-size: 30px;
+  margin: 20px;
+  padding-top: 42rem;
+  left: 10px;
+}
+.time {
+  position: fixed;
+  height: 2rem;
+}
