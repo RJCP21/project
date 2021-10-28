@@ -136,3 +136,9 @@
   left: 3%;
   width: 15%;
 }
+
+.Log {
+  position: fixed;
+  top: 44rem;
+  left: 1380px;
+}
